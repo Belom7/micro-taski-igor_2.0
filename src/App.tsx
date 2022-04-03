@@ -4,6 +4,7 @@ import {Header} from "./01_props/Header";
 import {Body} from "./01_props/Body";
 import {Footer} from "./01_props/Footer";
 import {NewComponent} from "./02_map/NewComponent";
+import {Buttons} from "./03_button/Buttons";
 
 export type StudentsType = {
     id:number
@@ -29,6 +30,7 @@ function App() {
             <Body title={'NEW BODY'}/>
             <Footer title={'NEW FOOTER'}/>
             <NewComponent arr={Students}/>
+            <Buttons/>
         </div>
     );
 }
