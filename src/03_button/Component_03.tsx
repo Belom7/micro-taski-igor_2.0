@@ -2,7 +2,7 @@ import React ,{MouseEvent} from 'react';
 import {Button} from "./Button";
 
 
-export const Buttons = () => {
+export const Component03 = () => {
     const mySubscriberMaks = (e:MouseEvent<HTMLButtonElement>) => {console.log(`Hello I'm Maks`)}
     const mySubscriberIvan = () => {console.log(`Hello I'm Ivan`)}
     const onclickHandler = (name:string) => {console.log(`Hello I'm ${name}`)}
@@ -16,6 +16,7 @@ export const Buttons = () => {
 
     return (
         <div>
+            <h3>Урок 3</h3>
             <button onClick={()=>console.log('Hello!')}>MyYouTubeChanel-1</button>
             <button onClick={mySubscriberMaks}>MyYouTubeChanel-2</button>
             <button onClick={mySubscriberIvan}>MyYouTubeChanel-3</button>
